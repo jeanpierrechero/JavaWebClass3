@@ -13,6 +13,8 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <%--<%=session.getId()%>--es para que nos devuelva el cookie del cliente--%>
+        <br>
         <form method="POST" action="add">
             nombre:<input type="text" name="nom"/>
             <input type="submit" value="agregar"/>
